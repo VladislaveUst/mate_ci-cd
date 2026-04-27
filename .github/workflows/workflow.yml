@@ -1,4 +1,4 @@
-name: ${{ github.actor }} workflow
+name: Workflow triggered by actor
 run-name: ${{ github.actor }} triggered the workflow
 
 on:

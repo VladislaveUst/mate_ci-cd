@@ -29,4 +29,5 @@ jobs:
           echo "Repository: $GITHUB_REPOSITORY"
 
       - name: Show triggering event
-        run: echo "Event: $GITHUB_EVENT_NAME"
+        run:  |
+          echo "Event: $GITHUB_EVENT_NAME"

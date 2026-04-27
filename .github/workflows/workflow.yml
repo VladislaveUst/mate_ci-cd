@@ -9,13 +9,13 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
+env:
+  GITHUB_ACTIONS: true
+
+  
 jobs:
   github-task-job:
     runs-on: ubuntu-latest
-
-    env:
-      GITHUB_ACTIONS: true
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
